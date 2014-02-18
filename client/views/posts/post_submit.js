@@ -15,12 +15,10 @@ Template.postSubmit.events({
 
                 if (error.error === 302) {
                     Router.go('postPage', {_id: error.details});
-                } else {
-                    Router.go('postPage', {_id: id});
                 }
+            } else {
+                Router.go('postPage', {_id: id});
             }
-
-            Router.go('postPage', {_id: id});
         });
     }
 });
