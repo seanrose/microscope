@@ -1,3 +1,12 @@
+/* START ADDED BY SEANROSE */
+
+.comment-form-textarea {
+    width: 30%;
+    min-width: 190px;
+}
+
+/* END ADDED BY SEANROSE */
+
 .grid-block, .main, .post, .comments li, .comment-form {
     background: #fff;
     -webkit-border-radius: 3px;
