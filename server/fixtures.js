@@ -17,7 +17,8 @@ if (Posts.find().count() === 0) {
         userId: kevin._id,
         author: kevin.profile.name,
         url: 'http://kevindurant35.com/',
-        submitted: now - 7 * 3600 * 1000
+        submitted: now - 7 * 3600 * 1000,
+        commentsCount: 2
     });
 
     Comments.insert({
@@ -41,7 +42,8 @@ if (Posts.find().count() === 0) {
         userId: derrick._id,
         author: derrick.profile.name,
         url: 'https://www.youtube.com/watch?v=GOtxJrzp6ls',
-        submitted: now - 10 * 3600 * 1000
+        submitted: now - 10 * 3600 * 1000,
+        commentsCount: 0
     });
 
     Posts.insert({
@@ -49,6 +51,7 @@ if (Posts.find().count() === 0) {
         userId: derrick._id,
         author: derrick.profile.name,
         url: 'http://espn.go.com/nba/player/_/id/3456/derrick-rose',
-        submitted: now - 12 * 3600 * 1000
+        submitted: now - 12 * 3600 * 1000,
+        commentsCount: 0
     });
 }
