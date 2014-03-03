@@ -5,11 +5,6 @@
     min-width: 190px;
 }
 
-#iron-router-progress {
-    background-color: #428bca;
-    box-shadow: 0 0 5px #2a6496;
-}
-
 /* END ADDED BY SEANROSE */
 
 .grid-block, .main, .post, .comments li, .comment-form {
