@@ -68,7 +68,9 @@ if (Posts.find().count() === 0) {
             userId: kevin._id,
             url: 'http://google.com/?q=test-' + i,
             submitted: now - i * 3600 * 1000,
-            commentsCount: 0
+            commentsCount: 0,
+            upvoters: [],
+            votes: 0
         });
     }
 }
