@@ -15,7 +15,13 @@
                 <ul class="nav navbar-nav">
                     {{#if currentUser}}
                     <li>
-                        <a href="{{pathFor 'postSubmit'}}">New</a>
+                        <a href="{{pathFor 'newPosts'}}">New</a>
+                    </li>
+                    <li>
+                        <a href="{{pathFor 'bestPosts'}}">Best</a>
+                    </li>
+                    <li>
+                        <a href="{{pathFor 'postSubmit'}}">Submit Post</a>
                     </li>
                     <li>
                         {{> notifications}}
